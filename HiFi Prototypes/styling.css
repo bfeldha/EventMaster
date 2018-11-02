@@ -1,0 +1,107 @@
+* {
+    font-family:sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.div1{
+    
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 500px;
+    height: 1000px;
+    position: absolute;
+    border: 1px solid blue;
+    padding:  0px;
+}
+
+.h1 {
+    padding: 0px;
+    background-color: rgb(219, 145, 54);   
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blue;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 0 0  darkblue, -2px 0 0 darkblue, 0 2px 0 darkblue, 0 -2px 0 darkblue, 1px 1px darkblue, -1px -1px 0 darkblue, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.5cm;
+    position: relative;
+    bottom:3.8%;
+    
+}
+
+button {
+    
+    background-color: rgb(219, 145, 54);
+    width: 150px;
+    height: 8   0px;
+    padding: 0px;
+    font-family: fantasy;
+    font-size: 0.6cm;
+    color:white;
+    text-shadow: 0.5px 0 0  darkblue, -2px 0 0 darkblue, 0 2px 0 darkblue, 0 -2px 0 darkblue, 1px 1px darkblue, -1px -1px 0 darkblue, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    border-radius: 8px;
+    }
+
+.align{
+    text-align: right;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right:20%    
+}
+
+.address{
+        text-align:right;
+        padding: 5px;
+        font-size: 0.5cm;
+        color:Black;
+
+    }
+
+button:hover{
+    opacity: 0.8;
+    }
+
+.foot{
+    margin-top:15%;
+    text-align: left;
+    padding: 5px;
+}
+
+.div2 {
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(219, 145, 54);
+    padding: 10%;
+    color:black;
+    font-size: 0.5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    padding:10px;
+
+}
+
+.divmain{
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+.outfont{
+    color: rgb(219, 145, 54);
+    text-shadow: 1.5px 0 0  black;
+    font-size: 0.75cm;
+    font-family: fantasy;
+}
+dt { display:block; float:left; width:100px; text-align: right;}
+dt:after{content:':';}
+dd { display:block;}
